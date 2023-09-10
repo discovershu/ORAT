@@ -1,7 +1,12 @@
 # Outlier Robust Adversarial Training
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/)
 
+Shu Hu, Zhenhuan Yang, Xin Wang, Yiming Ying, and Siwei Lyu
 _________________
+
+This repository is the official implementation of our paper 
+"Outlier Robust Adversarial Training", 
+which has been accepted by **ACML 2023**. 
 
 ## Requirements
 
@@ -55,3 +60,14 @@ python CIFAR100_ORAT.py --epsilon 0.0078  --dataset cifar100 --lr 0.1 --k 50000 
  ```test
 python CIFAR100_ORAT.py --epsilon 0.031 --step_size 0.00775  --dataset cifar100 --lr 0.1 --k 50000 --m 1
 ```
+
+## Citation
+Please kindly consider citing our paper in your publications. 
+```bash
+@inproceedings{hu2023outlier,
+  title={Outlier Robust Adversarial Training},
+  author={Hu, Shu and Yang, Zhenhuan and Wang, Xin and Ying, Yiming and Lyu, Siwei},
+  booktitle={The 15th Asian Conference on Machine Learning (ACML 2023)},
+  year={2022},
+  organization={PMLR}
+
